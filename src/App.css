@@ -1,0 +1,148 @@
+/* src/styles.css */
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f2f2f2;
+}
+
+ul, ol {
+  list-style-type: none;
+  padding-left: 3px;
+}
+
+.app-title span {
+  color: #2e6fe0;
+}
+
+.app-container {
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  width: 760px;
+  max-width: 100%;
+  box-sizing: border-box;
+}
+
+.question-container {
+  padding: 20px 20px 20px 40px;
+  border: 2px solid #d3d3d3;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+
+.options-container {
+  margin-top: 10px;
+}
+
+.option {
+  background-color: #f5f5f5;
+  border: 1px solid #d3d3d3;
+  border-radius: 5px;
+  padding: 10px;
+  margin: 5px 0;
+  cursor: pointer;
+  transition: background-color 0.3s, color 0.3s, border-color 0.3s;
+  position: relative;
+}
+
+.option:hover {
+  background-color: #e0e0e0;
+}
+
+.selected.correct {
+  background-color: #4caf50;
+  color: white;
+  border-color: #4caf50;
+}
+
+.selected.incorrect {
+  background-color: #f44336;
+  color: white;
+  border-color: #f44336;
+}
+
+.button-container {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 10px 15px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.button:hover {
+  background-color: #45a049;
+}
+
+.button:disabled {
+  background-color: #d3d3d3;
+  cursor: not-allowed;
+}
+
+.progress-bar {
+  margin-bottom: 10px;
+}
+
+.progress {
+  height: 10px;
+  background-color: #4caf50;
+  border-radius: 5px;
+}
+
+.progress-text {
+  margin-top: 5px;
+  font-size: 14px;
+  color: #888;
+  text-align: center;
+}
+
+.explanation {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #555;
+}
+
+.explanation-button {
+  position: absolute;
+  top: 5px;
+  right: 664px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  padding: 4px 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.explanation-button:hover {
+  background-color: #36ad3f;
+}
+
+.explanation-button-active {
+  background-color: #1fc713;
+}
+
+.words-list {
+  font-size: 14px;
+  color: #605555;
+  font-weight: bold;
+}
+
+.language-toggle button {
+  margin-left: 5px;
+}
