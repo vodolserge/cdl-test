@@ -1,6 +1,6 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "CDL Prep Quiz",
+  "name": "CDL Prep quiz application (based on CDL Prep mobile application)",
   "icons": [
     {
       "src": "favicon.ico",
