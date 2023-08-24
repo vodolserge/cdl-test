@@ -148,7 +148,7 @@ ul, ol {
 }
 
 /* Медиа-запрос для мобильных устройств (iPhone 11 и подобные) */
-@media (max-width: 400px) {
+@media (max-width: 560px) and (min-width: 380px) {
   .app-container {
     background-color: white;
     border-radius: 5px;
