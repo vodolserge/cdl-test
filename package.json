@@ -1,6 +1,6 @@
 {
   "homepage": ".",
-  "name": "cdl quiz",
+  "name": "cdl-quiz",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
